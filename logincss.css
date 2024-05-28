@@ -1,0 +1,73 @@
+label{
+    color:white;
+    display:block;
+    text-align:left;
+  }
+  
+  h1, p{
+    color:white;
+  }
+  body{
+  background-color:rgba(27, 27, 50, 0.8);
+    text-align:center;
+  }
+  
+  .name-label, .number-label, .email-label{
+    text-align:left;      
+    width:200px;
+    padding:4px;
+  }
+  
+  
+  }
+  
+  .name,.number,.email, textarea{
+  display:block;
+  width:300px;
+  }
+  
+  fieldset{
+    border:none;
+    background-color: #1b1b32;
+    padding:15px;
+  }
+  
+  .submit{
+    background-color:#37af65;
+  }
+  
+  body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--color-white);
+      margin: 0;
+  }
+  
+  
+  
+  
+  body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background: var(--color-darkblue);
+      background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  input[type="checkbox"]{
+    display:flex;
+    align-items:center;
+  }
+  
+  textarea{
+    height:100px;
+    width:default}      
